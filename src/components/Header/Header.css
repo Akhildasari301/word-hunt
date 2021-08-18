@@ -1,0 +1,33 @@
+.title {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%; 
+} 
+
+@media(max-width:900px) {
+    .title {
+        font-size: 10vw;
+        text-transform: uppercase;
+    }
+    .header {
+        justify-content: space-evenly;
+        height: 20vh;
+    }
+}
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.select, .search {
+    width: 40%;
+}
